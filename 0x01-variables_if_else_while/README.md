@@ -49,3 +49,9 @@ mandatory
 Write a program that prints the alphabet in lowercase, followed by a new line.
 
 
+3. alphABET
+mandatory
+Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+
+
+
