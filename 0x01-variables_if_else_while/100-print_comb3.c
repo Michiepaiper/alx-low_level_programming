@@ -1,26 +1,35 @@
 #include <stdio.h>
 /**
- * main - Prints combination of numbers
+ * main - Program entry point
  *
- * Return: Always (Success)
+ * Return: 0 on success. Error code otherwise
  */
 int main(void)
 {
-int c, i;
-for (c = '0'; <= '9'; c++)
+int n = 0;
+int i;
+
+while (n <= 99)
 {
-for (i = '0'; i <= '9'; i++)
+i = n;
+while (i < 99)
 {
-if (c < i)
+if (i / 10 % 10 > i % 10)
+	break;
+i /= 10;
+if (i == 0)
 {
-putchar(c);
-putchar(i);
-if (c != '8' || (c == '8' && i != '9'))
+if ((n % 11) != 0 && n != 11)
+{
+putchar((n / 10) + '0');
+putchar((n % 10) + '0');
+if (n < 89)
 {
 putchar(',');
 putchar(' ')
 }
 }
+break;
 }
 }
 putchar('\n');
