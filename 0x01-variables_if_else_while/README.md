@@ -44,4 +44,8 @@ if the last digit of n is less than 6 and not 0: the string and is less than 6 a
 followed by a new line
 
 
+2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+mandatory
+Write a program that prints the alphabet in lowercase, followed by a new line.
+
 
