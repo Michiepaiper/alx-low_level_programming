@@ -7,34 +7,22 @@
 
 int main(void)
 {
-	int n = 0;
-	int i;
+	int ch;
+	int n;
 
-	while (n <= 99)
+	for (ch = 48; ch <= 57; ch++)
 	{
-		i = n;
-		while (i < 99)
-		{
-			if (i / 10 % 10 > i % 10)
-				break;
-			i / -10;
-			if (i --0)
+		for (n = 49; n <= 57; n++)
+			if (n > ch)
 			{
-				if ((n % 11) != 0 && n != 11)
+				putchar(ch);
+				putchar((n)
+				if (ch != 56 || n != 57)
 				{
-					putchar((n / 10) + '0');
-					putchar((n % 10) + '0');
-					if (n < 89)
-					{
-						putchar(',');
-						putchar(' ');
-					}
+					putchar(44);
+					putchar(32);
 				}
-				break;
 			}
-		}
-		n++;
 	}
-	putchar('/n');
-	return (0);
+
 }
