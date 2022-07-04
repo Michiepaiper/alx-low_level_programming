@@ -1,30 +1,25 @@
 #include <stdio.h>
+
 /**
-   * main - entry point
-    *
-     * Return: alway returns 0
-      */
+ * main - printing combination of two numbers 01 to 99.
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
-int i;
-int j;
+	int a;
 
-for (i = 10; i <= 19; i++)
-{
-for (j = 10; j <= 19, j++)
-{
-if ((j % 10) > (i % 10))
-{
-putchar((i % 10) + '0');
-putchar((j % 10) + '0'0);
-if (i != 18 || j != 19)
-{
-putchar(',')
-putchar(' ')
-}
-}
-}
-}
-putchar('\n')
-return (0);
+	for (a = 0; a <= 89; a++)
+	if (a < ((a % 10)  * 10) + (a / 10))
+	{
+	putchar(a / 10 + '0');
+	putchar(a % 10 + '0');
+	if (a < 89)
+	{
+		putchar(',');
+		putchar(' ');
+	}
+	}
+	putchar('\n');
+	return (0);
 }
