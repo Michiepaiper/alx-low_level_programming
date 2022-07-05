@@ -32,4 +32,6 @@ To Write a function that checks for alphabetic character.
 
 10. a+b : This is a function that adds two integers and returns the result
 
+11. This is about Writing a function that prints all natural numbers from n to 98, followed by a new line.
+
 
