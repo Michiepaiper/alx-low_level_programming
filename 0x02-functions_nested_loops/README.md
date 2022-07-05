@@ -28,4 +28,6 @@ To Write a function that checks for alphabetic character.
 
 8. Jack Bauwa: Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 
+9. Its important to Learn our times table hence why i have written a function that prints the 9 times table, starting with 0.
+
 
