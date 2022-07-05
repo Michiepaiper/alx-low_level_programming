@@ -16,4 +16,8 @@ A function that prints 10 times the alphabet, in lowercase, followed by a new li
 3. islower
 To Write a function that checks for lowercase character
 
+4. isalpha
+
+To Write a function that checks for alphabetic character.
+
 
