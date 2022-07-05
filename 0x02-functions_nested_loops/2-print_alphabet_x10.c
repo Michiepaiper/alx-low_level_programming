@@ -19,6 +19,4 @@ void print_alphabet_x10(void)
 		}
 		_putchar('\n');
 	}
-	print_alphabets_x10(void);
-	return (0);
 }
