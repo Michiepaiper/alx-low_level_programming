@@ -34,4 +34,6 @@ To Write a function that checks for alphabetic character.
 
 11. This is about Writing a function that prints all natural numbers from n to 98, followed by a new line.
 
+12. This includes a function that prints the n times table, starting with 0.
+
 
