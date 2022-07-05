@@ -30,4 +30,6 @@ To Write a function that checks for alphabetic character.
 
 9. Its important to Learn our times table hence why i have written a function that prints the 9 times table, starting with 0.
 
+10. a+b : This is a function that adds two integers and returns the result
+
 
