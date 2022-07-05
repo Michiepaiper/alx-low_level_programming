@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer - prints time
+ * 'jack_bauer' - prints every minute of the day of Jack Bauer
  *
  * Description: prints a list of time
  * Return: Always 0.
@@ -20,5 +20,6 @@ _putchar((hour / 10) + '0');
 					_putchar((minute / 10) + '0');
 					_putchar((minute % 10) + '0');
 					_putchar('\n');
+}
 }
 }
