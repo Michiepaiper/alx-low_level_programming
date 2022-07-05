@@ -37,3 +37,7 @@ To Write a function that checks for alphabetic character.
 12. This includes a function that prints the n times table, starting with 0.
 
 13. To list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. i wrote a program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line, using the standard library
+
+14. This is a  program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+
+
