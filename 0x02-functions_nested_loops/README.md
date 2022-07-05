@@ -24,4 +24,6 @@ To Write a function that checks for alphabetic character.
 
 6. To Write a function that computes the absolute value of an integer.
 
+7. Write a function that prints the last digit of a number.
+
 
