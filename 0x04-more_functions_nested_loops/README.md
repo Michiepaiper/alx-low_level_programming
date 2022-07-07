@@ -34,3 +34,7 @@ Write a program that prints the numbers from 1 to 100, followed by a new line. B
 
 10. Triangles
 Write a function that prints a triangle, followed by a new line.
+
+11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic. With the prime factors of 1231952 are 2, 2, 2, 2, 37 and 2081, i wrote  a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
+
+
