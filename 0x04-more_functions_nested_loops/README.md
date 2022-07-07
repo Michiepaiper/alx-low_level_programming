@@ -12,3 +12,8 @@ Write a function that multiplies two integers.
 
 Task 3- The numbers speak for themselves.
 Write a function that prints the numbers, from 0 to 9, followed by a new line.
+
+Task 4- I believe in Numbers and Signs.
+Write a function that prints the numbers, from 0 to 9, followed by a new line.
+
+
