@@ -31,3 +31,5 @@ What if one doesn’t specify the function prototype?
 5. 0x05. C - Pointers, arrays and strings
 
 6. 0x06. C - More pointers, arrays and strings
+
+7. 0x07-pointers_arrays_strings
