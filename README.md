@@ -33,3 +33,7 @@ What if one doesn’t specify the function prototype?
 6. 0x06. C - More pointers, arrays and strings
 
 7. 0x07-pointers_arrays_strings
+
+8. 0x08-recursion
+
+9. 0x09-static_libraries
