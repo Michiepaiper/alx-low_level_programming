@@ -26,3 +26,10 @@ The output of the below kinds of programs is generally asked at many places.
 
 4. 0x03. C - Debugging
 	Debugging is the process of finding and fixing errors in software that prevents it from running correctly. As you become a more advanced programmer and an industry engineer, you will learn how to use debugging tools such as gdb or built-in tools that IDEs have. However, it’s important to understand the concepts and processes of debugging manually.
+
+
+5. 0x04. C - More functions, more nested loops
+Here we attempt more practice on Functions and Nested loops.
+
+6. 0x05. C - Pointers, arrays and strings
+Lets try out Pointers, arrays and spring
