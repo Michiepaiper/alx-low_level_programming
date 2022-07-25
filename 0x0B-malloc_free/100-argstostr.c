@@ -2,19 +2,44 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * free_grid - function that frees a two dimensional grid
- * @grid : array
- * @height : int
- * Return: 0
+ * argstostr - function to concatenate all the arguments of your program
+ * @ac: int
+ * @av: array
+ * Return: array
  */
 
-void free_grid(int **grid, int height)
+char *argstostr(int ac, char **av)
 {
-	int i;
+	char *str;
+	int i, j, k, l;
 
-	for (i = 0; i < height; i++)
+	k = 0;
+	l = 0;
+	if (ac == 0 || av == NULL)
 	{
-		free(grid[i]);
+		return (NULL);
 	}
-	free(grid);
+	for (i = 0; i < ac; i++)
+	{
+		for (j = 0; av[i][j] != '\0'; j++)
+		{
+			l++;
+		}
+	}
+	str = malloc(l * sizeof(char) + ac + 1);
+	if (!str)
+	{
+		return (NULL);
+	}
+	for (i = 0; i < ac; i++)
+	{
+		for (j = 0; av[i][j] != '\0'; j++, k++)
+		{
+			str[k] = av[i][j];
+		}
+		str[k] = '\n';
+		k++;
+	}
+	str[k] = '\0';
+	return (str);
 }
