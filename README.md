@@ -47,4 +47,13 @@ Lets try out Pointers, arrays and spring
 8. 0x08-recursion
 
 9. 0x09-static_libraries
->>>>>>> 0ae2995155ad17d71b2c6cf30713e8371008ade8
+
+10. 0x0A-argc_argv
+
+11. 0x0B. C - malloc, free
+
+12. 0x0C. C - More malloc, free
+
+13. 0x0D. C - Preprocessor
+
+14. 0x0E-structures_typedef
