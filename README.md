@@ -59,3 +59,5 @@ Lets try out Pointers, arrays and spring
 14. 0x0E-structures_typedef
 
 15. 0x0F. C - Function pointers
+
+16. 0x12-singly_linked_lists
