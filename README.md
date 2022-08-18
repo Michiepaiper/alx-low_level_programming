@@ -61,3 +61,7 @@ Lets try out Pointers, arrays and spring
 15. 0x0F. C - Function pointers
 
 16. 0x12-singly_linked_lists
+
+17. 0x13-more_singly_linked_lists
+
+18. 0x14-bit_manipulation
